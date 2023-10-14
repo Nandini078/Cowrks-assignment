@@ -1,0 +1,48 @@
+
+.top-bar {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(0, 52,98), rgba(243, 112, 33));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blinking-text {
+    font-size: 16px;
+    animation: blink 1s infinite;
+    color: var(--white);
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+.custom-navbar .header-sapphire{
+    width: 100%;
+    font-size: 14px !important;
+    font-family: 'GothamBook' !important;
+}
+
+.custom-navbar .navbar-collapse{
+    justify-content: space-between;
+}
+
+.custom-navbar .custom-btn{
+    color: white;
+    background-color: #003462;
+    padding: 6px 20px;
+    border-radius: 0px !important;
+    border: 0;
+}
+.custom-navbar .custom-btn:hover {
+    transition: 0.2s ease-in-out;
+    background-color: #f37021 !important;
+}

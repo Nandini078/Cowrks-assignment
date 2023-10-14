@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-custom-padding{
+  width: 70%;
+  margin: 0 auto;
+}
+.bgrnd-color-layout{
+  width: 100%;
+  background: #f8f8f8;
+  text-align: left;
+}
+.bgrnd-color-child{
+  width: 70%;
+  margin: 0 auto;
+}
+.custom-btn:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #f37021 !important;
+}
+.custom-btn{
+  color: white;
+  background-color: #003462 !important;
+  padding: 6px 20px;
+  border-radius: 0px !important;
+  border: 0 !important;
+}
+.common-heading{
+  color: '#003462';
+  font-weight: 'normal';
+  color: #003462;
+  font-family: GothamBook !important;
+}
+

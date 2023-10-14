@@ -1,0 +1,70 @@
+/* Style for the container */
+.image-container {
+    position: relative;
+  }
+  
+  /* Style for the second image */
+  .second-image {
+    width: 150px; /* Set the width of the second image */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* Style for the overlay container */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 15%;
+  }
+  
+  /* Style for the background image */
+  .background-image {
+    width: 100%; /* Set the width of the first image to 100% */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* Style for the text */
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    transform: translate(-50%, -50%); /* Center the text vertically and horizontally */
+    /* font-size: 24px; */
+    color: white; /* Text color */
+    background: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+    padding: 10px; /* Adjust padding as needed */
+    font-family: 'GothamBook' !important;
+  }
+
+  .background-image {
+    background-image: url('https://cms.cowrksassets.com/cms/image/1060x596/AA-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+  .img-h2{
+    font-size: 48px;
+    font-family: 'GothamBook' !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 42px;
+  }
+  .img-p-layout{
+    margin-top: 10px;
+  }
+  .img-p{
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }

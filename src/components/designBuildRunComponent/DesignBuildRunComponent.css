@@ -1,0 +1,55 @@
+.design-build-layout{
+    padding: 80px 0;
+    margin: 60px 0;
+}
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Adjust the gap between items */
+  }
+  
+  .data-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 21px 0;
+  }
+  
+  .icon img {
+    width: 50px; /* Set the desired width for the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust the spacing between icon and text */
+  }
+  .data-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .eachitem-heading{
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #333333;
+    font-family: GothamBOLD, serif !important;
+  }
+  .eachitem-p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    margin: 0;
+    color: #666666;
+  }
+  /* .column{
+    margin-right: 18px;
+  } */
+  .column-text{
+    margin-left: 30px;
+    margin-right: 100px;
+  }
+  /* .column-img{
+    margin-right: 30px;
+  } */

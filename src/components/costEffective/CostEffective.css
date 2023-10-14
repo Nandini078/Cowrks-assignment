@@ -1,0 +1,23 @@
+.image-why-cowrks-layout{
+    display: flex;
+}
+.why-cowrks-layout{
+    text-align: justify;
+}
+.why-cowrks-div{
+    border-left: 1px solid #f37021;
+    margin-top: 20px;
+}
+.why-cowrks-p{
+    padding-left: 5px;
+}
+.why-cowrks-p:hover{
+    margin: 20px -2px;
+    border-left: 3px solid #f37021;
+    color: #003462;
+    font-weight: 600;
+}
+.btn-layout{
+    display: flex;
+    justify-content: center;
+}

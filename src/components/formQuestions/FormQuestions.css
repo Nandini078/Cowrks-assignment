@@ -1,0 +1,55 @@
+.form-questions{
+    border: 1px solid;
+    padding: 60px;
+    text-align: justify;
+}
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+label {
+    margin-bottom: 8px;
+    line-height: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input {
+    display: block;
+    padding: 12px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 100%;
+    font-family: 'GothamBook' !important;
+}
+
+button {
+    margin-top: 10px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+  }
+  
+  .footer-column {
+    flex: 1;
+    font-size: 14px;
+    color: #666666;
+  }
+  .footer-column li:hover {
+    color: #f37021;
+}
+  
+  .wide-column {
+    flex: 2; /* Make the fourth column twice as wide as the others */
+  }
+  ul {
+    list-style: none; /* Remove list bullets */
+  }

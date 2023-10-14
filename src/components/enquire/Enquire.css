@@ -1,0 +1,25 @@
+.enquire-layout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.enquire-div{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.equire-p{
+    font-size: 28px;
+    font-weight: 300;
+    color: #003462;
+    text-align: center;
+    font-family: GothamBook !important;
+}
+.enquire-btn{
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: GothamBook !important;
+}
