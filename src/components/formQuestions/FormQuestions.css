@@ -28,28 +28,3 @@ input {
 button {
     margin-top: 10px;
 }
-
-
-
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f8f8f8;
-  }
-  
-  .footer-column {
-    flex: 1;
-    font-size: 14px;
-    color: #666666;
-  }
-  .footer-column li:hover {
-    color: #f37021;
-}
-  
-  .wide-column {
-    flex: 2; /* Make the fourth column twice as wide as the others */
-  }
-  ul {
-    list-style: none; /* Remove list bullets */
-  }

@@ -10,9 +10,7 @@
     right: 0;
     background-color: #fff; 
     z-index: 999;
-}
-.body-layout{
-    padding-bottom: 10%;
+    background-color: #f8f8f8;
 }
 .footer-layout{
     height: 70px;

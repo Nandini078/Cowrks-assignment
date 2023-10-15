@@ -23,7 +23,6 @@ const FormQuestions = () => {
 
     }
     return (
-        <>
         <div className='form-questions'>
             <h2 className="common-heading">Have questions? We'd love to answer them.</h2>
             <p>Help us with your requirements and we’ll get out workspace experts to reach out to you at the earliest.</p>
@@ -127,49 +126,6 @@ const FormQuestions = () => {
                 
             </form>
         </div>
-
-        <footer className="footer">
-      <div className="footer-column">
-        <h3>Column 1</h3>
-        <ul>
-          <li>Subheading 1</li>
-          <li>Subheading 2</li>
-          <li>Subheading 3</li>
-          <li>Subheading 4</li>
-          <li>Subheading 5</li>
-        </ul>
-      </div>
-      <div className="footer-column">
-        <h3>Column 2</h3>
-        <ul>
-          <li>Subheading 1</li>
-          <li>Subheading 2</li>
-          <li>Subheading 3</li>
-          <li>Subheading 4</li>
-          <li>Subheading 5</li>
-          <li>Subheading 6</li>
-        </ul>
-      </div>
-      <div className="footer-column">
-        <h3>Column 3</h3>
-        <ul>
-          <li>Subheading 1</li>
-          <li>Subheading 2</li>
-          <li>Subheading 3</li>
-          <li>Subheading 4</li>
-          <li>Subheading 5</li>
-        </ul>
-      </div>
-      <div className="footer-column wide-column">
-        <h3>Column 4</h3>
-        <ul>
-          <li>Subheading 1</li>
-          <li>Subheading 2</li>
-          <li>Subheading 3</li>
-        </ul>
-      </div>
-    </footer>
-        </>
     )
 }
 
